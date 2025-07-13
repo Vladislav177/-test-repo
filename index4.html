@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №3</title>
+    <style>
+        /* Основные стили */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        /* Стили для текста */
+        .red {
+            color: red !important;
+        }
+        
+        .green {
+            color: green !important;
+        }
+        
+        .blue {
+            color: blue !important;
+        }
+        
+        .italic {
+            font-style: italic;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        /* Стили списка */
+        .colored-list {
+            padding-left: 25px;
+        }
+        
+        .colored-list li {
+            margin: 5px 0;
+        }
+        
+        /* Ссылка */
+        a {
+            color: #0066cc;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <a href="task_main.html">Вернуться к списку заданий</a>
+    
+    <p class="red">Это красный текст</p>
+    <p class="green">Это зелёный текст</p>
+    
+    <p class="italic">Этот текст написан курсивом</p>
+    <p class="bold">Это <span class="bold">полужирный</span> текст</p>
+    
+    <ul class="colored-list">
+        <li class="green">Этот элемент списка зелёный</li>
+        <ul>
+            <li class="red">Этот элемент подсписка красный</li>
+            <li class="blue">Этот элемент подсписка синий</li>
+        </ul>
+    </ul>
+</body>
+</html>
